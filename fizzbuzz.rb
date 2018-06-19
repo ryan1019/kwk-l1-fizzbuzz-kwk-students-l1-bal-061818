@@ -1,5 +1,7 @@
 def fizz_buzz(int)
-  if int %3 == 0
+  if int %15 == 0
+    puts "FizzBuzz"
+  elsif int %3 == 0
     puts "Fizz"
 
 
@@ -7,8 +9,7 @@ def fizz_buzz(int)
     puts "Buzz"
 
 
-  elsif int %15 == 0
-    puts "FizzBuzz"
+  
 
   else
     puts "nil"
